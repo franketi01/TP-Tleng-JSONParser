@@ -1,0 +1,30 @@
+type user struct {
+    name string
+    email string
+    the matrix
+    projects []project
+}
+
+type project struct {
+    tasks []task
+    createdAt date
+}
+
+type task struct {
+    description string
+    done bool
+    due date
+}
+
+type date struct {
+    day int
+    month int
+    year int
+}
+
+type complex struct {
+    real float64
+    imag float64
+}
+
+type matrix [][]complex

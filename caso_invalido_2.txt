@@ -1,0 +1,11 @@
+type cliente struct {
+	nombre string
+	apellido string
+	dni int
+	fact factura
+}
+
+type factura struct {
+	codigo int
+	pagada bool bool
+}

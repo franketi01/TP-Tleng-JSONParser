@@ -1,0 +1,18 @@
+type tienda struct {
+	nombre string
+	produc producto
+	clientes []string
+	ventas []float64
+}
+
+type producto struct {
+	nombre string
+	cantidad int
+	precio int
+	cate categoria
+}
+
+type categoria struct {
+	nombre string
+	codigo int
+}

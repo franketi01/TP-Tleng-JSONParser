@@ -1,0 +1,37 @@
+type persona struct {
+	nombre string
+	edad int
+	nacionalidad pais
+	ventas []float64
+	activo bool
+}
+
+type pais struct {
+	nombre string
+	cod codigo
+	apellido2 struct {
+		nombre string
+	}	
+}
+
+type codigo struct {
+	nombre string
+	escaneraux struct {
+		nombre2 ident
+	}
+}
+
+type ident struct {
+	nombre string
+	identaux struct {
+		nombre3 qr
+	}
+}
+
+type qr struct {
+	nombre string
+	codigo struct {
+		nacionalidad pais
+		nombre4 string
+	}
+}

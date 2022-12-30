@@ -1,0 +1,6 @@
+type fecha struct {
+  dia int
+  mes int
+}
+
+type fecha string

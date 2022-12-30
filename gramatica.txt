@@ -1,0 +1,9 @@
+G = <{S, }, {int, bool, float, string, [], type {, }, nombre, struct}, P, S >
+
+P:
+
+S -> type nombre struct { T
+
+T -> } | nombre V T | nombre nombre T type nombre struct { T | nombre struct { T T
+
+V -> int | bool | float | string | []V 

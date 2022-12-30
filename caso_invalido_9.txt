@@ -1,0 +1,28 @@
+type persona struct {
+	nombre string
+	edad int
+	nacionalidad pais
+	ventas []float64
+	activo bool
+}
+
+type pais struct {
+	nombre string
+	apellido struct {
+		cod codigo
+		sufijo string
+	}
+}
+
+type codigo struct {
+	nombre string
+	escaner qr
+}
+
+type qr struct {
+	nombre string
+	codigo struct {	
+		nacionalidad pais
+		nombre string
+	}
+}

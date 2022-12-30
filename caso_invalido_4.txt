@@ -1,0 +1,5 @@
+type pos struct {
+	x int
+	y int
+	z pos
+}

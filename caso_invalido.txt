@@ -1,0 +1,5 @@
+type cliente struct {
+	string
+	apellido string
+	dni int
+}
